@@ -60,3 +60,28 @@ nextEl.addEventListener("click", (event) => {
     emoQuestEl.innerHTML = "Do you enjoy Gif's";
   }
 });
+
+// let i = 0
+
+// while (i < myArray.length) {
+//   if(i === myArray.length-1){
+//     console.log(myArray[i])
+//   }
+//   console.log(myArray[i])
+
+//   i++;
+// }
+
+//code that is working for me
+
+// const myArray = ["josh", "is", "trying", "to", 'code']
+
+// let i = 0
+// while (i < myArray.length) {
+//   if(i === myArray.length-1){
+//     console.log(myArray[i])
+//   }
+//   console.log(myArray[i])
+
+//   i++;
+// }
