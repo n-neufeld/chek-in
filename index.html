@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>CHEK-IN</h1>
+    <p>
+      This is a safe space.<br />
+      Tell us how are you feeling, and you'll get a prize. 🤓
+    </p>
+    <section class="emo">
+      <form class="emo__quest" id="queryForm">
+        <label class="emo__quest__label" for="question"
+          >Do you enjoy Gif's</label
+        >
+        <select class="emo__quest__question" name="question">
+          <option value="great" name="great">😆 - Hal ya!</option>
+          <option value="mind blown" name="mind blown">🤯 - Boom</option>
+          <option value="meh" name="">🥴 - Oh look, a Bird...</option>
+          <option value="terrible" name="terrible">😭 - ...</option>
+        </select>
+        <div class="emo__quest__question2"></div>
+        <div class="emo__button">
+          <button type="submit" value="submit">DEMYSTIFY</button>
+        </div>
+        <div class="emo__face"></div>
+        <button class="next" type="submit" value="submit">CONTINUE</button>
+      </form>
+    </section>
+
+    <!-- div for displaying smiley face from js -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="./src/script.js"></script> -->
+    <script src="./src/shmuel.js"></script>
+  </body>
 </html>
